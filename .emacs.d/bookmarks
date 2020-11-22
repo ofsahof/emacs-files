@@ -1,0 +1,20 @@
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("bm"
+ (filename . "~/Desktop/emacs-notes/README.md")
+ (front-context-string . "ET      Cursorın")
+ (rear-context-string . "x r m bookmark R")
+ (position . 1572))
+("end"
+ (filename . "~/Desktop/hello.py")
+ (front-context-string . " THE END       \n")
+ (rear-context-string . "      \n#\n#      ")
+ (position . 61))
+("org-capture-last-stored"
+ (filename . "~/org-roam/20201120142949-myemacsnotes.org")
+ (front-context-string . "#+title: myEmacs")
+ (rear-context-string)
+ (position . 1))
+)
