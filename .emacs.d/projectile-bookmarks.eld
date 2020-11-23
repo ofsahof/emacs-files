@@ -1,1 +1,1 @@
-("~/")
+("~/" "~/.emacs.d/lisp/emacs-dashboard/")

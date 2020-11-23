@@ -50,8 +50,9 @@
  '(delete-selection-mode t)
  '(global-display-line-numbers-mode t)
  '(inhibit-startup-screen t)
+ '(org-agenda-files '("~/org-roam/20201122222112-format.org"))
  '(package-selected-packages
-   '( helm outshine org-roam projectile xref-js2 js2-refactor js2-mode))
+   '(helm outshine org-roam projectile xref-js2 js2-refactor js2-mode))
  '(show-paren-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -123,5 +124,13 @@
 (require 'all-the-icons)
 
 (insert (all-the-icons-icon-for-file "\\.\\"))
+
+
+;;; dashboard
+(add-to-list 'load-path "~/.emacs.d/lisp/emacs-dashboard")
+(require 'dashboard)
+(dashboard-setup-startup-hook)
+(setq org-agenda-include-diary t)
+
 
 
