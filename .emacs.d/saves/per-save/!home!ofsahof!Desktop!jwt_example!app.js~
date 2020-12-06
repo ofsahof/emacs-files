@@ -1,0 +1,45 @@
+const jwt = require('jsonwebtoken');
+const bodyParser = require('body-parser');
+const app = require("express")();
+const cors = require('cors')
+
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json());
+app.use(cors());
+	
+const accessTokenKey = "bruh";// bu değişicek ve daha uzun bir şey olcak
+const users = [
+    {
+	username: 'ofsahof',
+	password: '123456',
+	role: 'admin'
+    }, {
+	username: 'cabbar',
+	password: '123456',
+	role: 'member'
+    }
+];
+
+app.post("/login",(req,res) => {
+    const user = users.find(u => {return u.username == req.body.username && u.password == req.body.password});// normalde burda veri tabanı sorgusu yapılır ama ben üşendim
+
+    if(!user) {
+	console.log(username,password)
+	return res.send("username or password is incorrect")
+    }
+
+    const accessToken = jwt.sign({ username: user.username,  role: user.role }, accessTokenKey);
+
+    res.json({
+	accessToken
+    });
+    
+});
+
+
+
+
+
+app.listen(3000,() => {
+    console.log("server is running at port 3000");
+});

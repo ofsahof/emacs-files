@@ -13,8 +13,8 @@
  (rear-context-string . "      \n#\n#      ")
  (position . 61))
 ("org-capture-last-stored"
- (filename . "~/org-roam/20201120142949-myemacsnotes.org")
- (front-context-string . "#+title: myEmacs")
+ (filename . "~/org-roam/20201127103141-node_ffont.org")
+ (front-context-string . "#+title: node-ff")
  (rear-context-string)
  (position . 1))
 )

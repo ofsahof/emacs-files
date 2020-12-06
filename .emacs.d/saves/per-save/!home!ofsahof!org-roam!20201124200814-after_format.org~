@@ -1,0 +1,57 @@
+
+#+title: after-format
+#+author: ofsahof
+
+
+*  After Format 
+** TODO emacs
+   - install emacs
+   - install emacs configs
+   - install this file :)
+** TODO run the murats arch-prep file 
+   - remove the vim
+   - remove the code
+** TODO install zoom
+   - [ ] yay -S zoom
+** TODO firefox
+   - enable dark theme
+   - take the console right
+   - set the asking when installing any file
+   - firefox vpn
+   - proton vpn
+   - duckduckgo 
+** TODO install the nvm, node and npm [/]
+   - [ ] curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.0/install.sh | bash 
+   - [ ] paste these into the ~/.zshrc
+   - export NVM_DIR="$HOME/.nvm"
+   - [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+   - [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+   - [ ] nvm install node
+   - [ ] npm i nodemon -g
+** TODO install rustup and rust
+   - curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+   - add to path
+** TODO theme [/]
+*** [ ] ulauncher
+   - set dark theme
+   - set keybinding CTRL - ALT - SPACE
+*** [ ] plank  
+    - set the autostart
+    - set the dark theme
+    - set the docklet items
+    - set the size 52
+    - set the zoom
+*** [ ] set the theme: adwaita-dark
+** TODO useful applications
+*** Mailspring 
+*** simplenote
+*** gitAhead
+** TODO install programming languages what you need
+
+
+
+
+
+
+
+

@@ -50,9 +50,9 @@
  '(delete-selection-mode t)
  '(global-display-line-numbers-mode t)
  '(inhibit-startup-screen t)
- '(org-agenda-files '("~/org-roam/20201122222112-format.org"))
+ '(org-agenda-files '("~/org-roam/20201127103141-node_ffont.org"))
  '(package-selected-packages
-   '(helm outshine org-roam projectile xref-js2 js2-refactor js2-mode))
+   '(treemacs-persp treemacs-magit treemacs-icons-dired treemacs-projectile treemacs-evil treemacs helm outshine org-roam projectile xref-js2 js2-refactor js2-mode))
  '(show-paren-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -118,7 +118,6 @@
   :ensure t
   :config (helm-mode 1))
 
-
 ;;; all-the icons
 (add-to-list 'load-path "~/.emacs.d/lisp/all-the-icons")
 (require 'all-the-icons)
@@ -129,8 +128,12 @@
 ;;; dashboard
 (add-to-list 'load-path "~/.emacs.d/lisp/emacs-dashboard")
 (require 'dashboard)
-(dashboard-setup-startup-hook)
 (setq org-agenda-include-diary t)
+(setq org-agenda-start-on-weekday nil)
+(setq org-agenda-span 10)
+(dashboard-setup-startup-hook)
+
+(put 'upcase-region 'disabled nil)
 
 
 

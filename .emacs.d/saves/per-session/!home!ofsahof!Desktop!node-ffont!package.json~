@@ -1,0 +1,12 @@
+{
+  "name": "ffont",
+  "version": "1.0.0",
+  "description": "nodejs implementation of ffont",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "chmod +x ffont.js && cp ffont.js /bin/ && cp alphabet.js /bin/ && echo node-ffont have installed. You can use it via ffont command"
+  },
+  "author": "ofsahof",
+  "license": "ISC"
+}

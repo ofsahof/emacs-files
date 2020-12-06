@@ -1,1 +1,1 @@
-("~/" "~/.emacs.d/lisp/emacs-dashboard/")
+("~/Desktop/node-ffont/" "~/.oh-my-zsh/" "~/Desktop/jwt_example/" "~/.emacs.d/lisp/treemacs/" "~/.cask/" "~/.emacs.d/lisp/emacs-dashboard/" "~/")

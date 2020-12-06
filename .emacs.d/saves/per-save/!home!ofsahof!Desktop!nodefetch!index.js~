@@ -1,0 +1,24 @@
+const colors = require("colors");
+const os = require("os");
+
+let infos = {
+    architecture: os.arch(),
+    cpu: os.cpus()[0].model,
+    free_memort: os.freemem(),
+    hostname: os.hostname(),
+    kernel: os.release(),
+    uptime_second: os.uptime(),
+    username: os.userInfo().username,
+    
+};
+
+
+
+
+
+
+
+
+
+
+
