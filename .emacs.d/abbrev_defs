@@ -1,0 +1,15 @@
+;;-*-coding: utf-8;-*-
+(define-abbrev-table 'global-abbrev-table
+  '(
+    ("brd" "bardağı" nil :count 14)
+    ("k." "kaşığı" nil :count 0)
+    ("kbr" "kabartmaTozu" nil :count 4)
+    ("kg" "kilogram" nil :count 1)
+    ("lt" "litre" nil :count 1)
+    ("svy" "sıvıYağ" nil :count 0)
+    ("try" "tereyağı" nil :count 3)
+    ("ymt" "yumurta" nil :count 5)
+    ("yrt" "yoğurt" nil :count 0)
+    ("çy" "çay" nil :count 3)
+   ))
+
